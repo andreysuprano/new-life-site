@@ -1,5 +1,7 @@
 import { AboutSection } from '../components/AboutSection/AboutSection';
 import { ContatoSection } from '../components/ContatoSection/ContatoSection';
+import { CopySection } from '../components/CopySection/CopySection';
+import { Footer } from '../components/Footer/Footer';
 import { NavBar } from '../components/NavBar/NavBar';
 import { ServicoDetalhadoSection } from '../components/ServicoDetalhadoSection/ServicoDetalhadoSection';
 import { SpanServicos } from '../components/SpanServicos/SpanServicos';
@@ -16,6 +18,8 @@ function Home() {
 			<VideoSection />
 			<ServicoDetalhadoSection />
 			<ContatoSection />
+			<Footer />
+			<CopySection />
 		</div>
 	);
 }

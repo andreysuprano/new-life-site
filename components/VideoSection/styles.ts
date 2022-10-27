@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
-    width:100vw;
+    width:99.9vw;
     background-image:url('./Pattern.png'); 
     display:flex;
     align-items:center;
