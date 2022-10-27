@@ -5,6 +5,7 @@ import LogoNewLife from '../../assets/img/LogoNewLife.png';
 import { TelefoneButton } from '../TelefoneButton/TelefoneButton';
 
 import { NavLinks } from './NavLinks';
+import { GiHamburgerMenu } from 'react-icons/gi';
 
 export const NavBar = () => {
 	return (
@@ -22,6 +23,9 @@ export const NavBar = () => {
 					<TelefoneButton />
 					<S.NavButton>Agendamento</S.NavButton>
 				</S.BtnMenuContainer>
+				<S.MenuHarmburger>
+					<GiHamburgerMenu size={30} />
+				</S.MenuHarmburger>
 			</S.Container>
 		</S.Nav>
 	);

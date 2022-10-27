@@ -3,6 +3,11 @@ import styled from "styled-components";
 export const Divider = styled.div`
     display: flex;
     margin-top: 40px;
+    @media (min-width: 768px) and (max-width:1023px){
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
 `;
 
 export const Container = styled.div`
@@ -10,12 +15,15 @@ export const Container = styled.div`
     justify-content: center;
     margin-top: 80px;
     padding-bottom:150px;
+    @media (min-width: 768px) and (max-width:1023px){
+    }
 `;
 
 export const Wrapper = styled.div`
     max-width: 1200px;
     display: flex;
     flex-direction: column;
+    padding: 50px;
 `;
 
 export const Title = styled.h1`

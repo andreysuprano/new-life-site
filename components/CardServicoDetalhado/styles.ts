@@ -10,6 +10,9 @@ export const Container = styled.div`
     padding: 40px;
     margin-right: 20px;
     margin-left: 20px;
+    @media (min-width: 768px) and (max-width:1023px){
+        margin-bottom: 50px;
+    }
 `;
 
 export const CardHeader = styled.div`

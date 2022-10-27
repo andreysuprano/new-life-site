@@ -7,6 +7,11 @@ export const Container = styled.section`
     display:flex;
     align-items:center;
     justify-content:center;
+
+    @media (min-width: 768px) and (max-width:1023px){
+        max-width:100%;
+        height: 550px;
+    }
 `;
 
 export const Content = styled.div`
@@ -14,10 +19,17 @@ export const Content = styled.div`
     display:flex;
     align-items:center;
     justify-content:space-around;
+
+    @media (min-width: 768px) and (max-width:1023px){
+        max-width:100%;
+    }
 `;
 
 export const TextContainer = styled.div`
     width:30vw;
+    @media (min-width: 768px) and (max-width:1023px){
+        width:40vw;
+    }
 `;
 
 export const ImageContainer = styled.div`

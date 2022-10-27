@@ -7,23 +7,31 @@ export const Center = styled.section`
     justify-content:center;
     padding-top: 50px;
     padding-bottom: 100px;
+    @media (min-width: 768px) and (max-width:1023px){
+        flex-direction: column;
+    }
 `;
 export const Container = styled.div`
     max-width:1200px;
-
 `;
+
 export const Content = styled.div`
     display:flex;
     align-items:center;
     justify-content:space-between;
+    @media (min-width: 768px) and (max-width:1023px){
+        flex-direction: column;
+    }
 `;
 
 export const ImageContainer = styled.div`
-margin-right: 40px;
+    margin-right: 40px;
 `;
 
 export const TextContainer = styled.div`
-    
+    @media (min-width: 768px) and (max-width:1023px){
+        padding: 50px;
+    }
 `;
 
 export const Span = styled.span`

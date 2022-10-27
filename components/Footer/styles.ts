@@ -7,11 +7,18 @@ export const Container = styled.div`
     display:flex;
     justify-content:center;
     padding: 40px;
+    @media (min-width: 768px) and (max-width:1023px){
+        height: auto;
+        align-items: center;
+    }
 `;
 export const Content = styled.div`
     max-width:1500px;
     display: flex;
     justify-content: space-between;
+    @media (min-width: 768px) and (max-width:1023px){
+        flex-direction: column;
+    }
 `;
 
 export const Title = styled.h1`
@@ -27,6 +34,14 @@ export const BrandArea = styled.div`
     padding: 30px;
     border-radius:15px;
     margin-right: 25px;
+    @media (min-width: 768px) and (max-width:1023px){
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+        margin-top:0px;
+        display: flex;
+        align-items: center;
+    }
 `;
 
 export const Paragraph = styled.p`
@@ -57,6 +72,9 @@ export const LiksUteis = styled.div`
     padding: 30px;
     display: flex;
     flex-direction: column;
+    @media (min-width: 768px) and (max-width:1023px){
+        height: 200px;
+    }
 `;
 
 export const Localizacao = styled.div`
@@ -66,6 +84,9 @@ export const Localizacao = styled.div`
     display: flex;
     flex-direction: column;
     margin-left: -50px;
+    @media (min-width: 768px) and (max-width:1023px){
+        height: 200px;
+    }
 `;
 
 export const Links = styled.a`
@@ -87,5 +108,13 @@ export const EmailLink = styled.a`
     margin-top: 10px;
     &:hover {
         color: #fff;
+    }
+`;
+
+export const LinksWrapper = styled.div`
+    display: flex;
+    @media (min-width: 768px) and (max-width:1023px){
+        align-items: center;
+        justify-content: center;
     }
 `;

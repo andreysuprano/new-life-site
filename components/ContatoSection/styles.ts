@@ -13,6 +13,10 @@ export const Content = styled.div`
     display: flex;
     flex-direction: column;
     align-items: center;
+    @media (min-width: 768px) and (max-width:1023px){
+       justify-content: center;
+       margin-bottom: 10px;
+    }
 `;
 
 export const Span = styled.span`
@@ -23,6 +27,10 @@ export const Span = styled.span`
     align-items: center;
     justify-content: center;
     margin-bottom: 25px;
+    @media (min-width: 768px) and (max-width:1023px){
+       justify-content: center;
+       align-items: center;
+    }
 `;
 
 export const TitleBox = styled.div`
@@ -30,6 +38,9 @@ export const TitleBox = styled.div`
     flex-direction: column;
     margin-top: 20px;
     justify-content: center;
+    @media (min-width: 768px) and (max-width:1023px){
+       text-align: center;
+    }
 `;
 
 export const Title = styled.h1`

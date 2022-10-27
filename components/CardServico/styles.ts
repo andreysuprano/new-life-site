@@ -12,6 +12,11 @@ export const Container = styled.div`
     align-items:center;
     justify-content:center;
     padding: 20px;
+    @media (min-width: 768px) and (max-width:1023px){
+        width:200px;
+        height:120px;
+        padding: 15px;
+    }
 `;
 
 export const Content = styled.div`
@@ -23,4 +28,7 @@ export const Content = styled.div`
 export const Title = styled.span`
     font-weight:900;
     font-size:24px;
+    @media (min-width: 768px) and (max-width:1023px){
+        font-size:18px;
+    }
 `;

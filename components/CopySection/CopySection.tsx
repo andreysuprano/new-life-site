@@ -8,7 +8,7 @@ export const CopySection = () => {
 			<S.Wrapper>
 				<S.Content>
 					<S.CopyLinks href="">Copyright 2022 All Right Reserved.</S.CopyLinks>
-					<S.CopyLinks href="" style={{ marginLeft: 630 }}>
+					<S.CopyLinks href="" style={{ marginLeft: 300 }}>
 						Desenvolvido por Suprano Digital <Image src={SPDigital} alt="" />{' '}
 					</S.CopyLinks>
 				</S.Content>

@@ -1,15 +1,6 @@
 import styled, { keyframes } from "styled-components";
 import { TelefoneButtonProps } from "./TelefoneButton";
 
-const zoom = keyframes`
-    from{
-        padding:3px;
-    }
-    to{
-        padding:25px;
-    }
-`;
-
 export const Container = styled.div`
     margin-right:20px;
 `;

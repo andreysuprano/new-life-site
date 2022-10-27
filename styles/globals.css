@@ -7,3 +7,6 @@ body {
   font-family: 'Poppins';
   overflow-x:hidden;
 }
+body{
+  overflow-y:hidden;
+}

@@ -17,20 +17,22 @@ export const Footer = () => {
 					</S.Paragraph>
 					<S.WhatsButton>WhatsApp</S.WhatsButton>
 				</S.BrandArea>
-				<S.LiksUteis>
-					<S.Title>Links Úteis</S.Title>
-					{NavLinks.map((link) => {
-						return <S.Links href={link.href}>{link.label}</S.Links>;
-					})}
-				</S.LiksUteis>
-				<S.Localizacao>
-					<S.Title>Localização</S.Title>
-					<S.Endereco>Av. Presidente Wenceslau Braz, 4015 Portão, Curitiba - PR, 81010-001</S.Endereco>
-					<TelefoneButton variant="white" />
-					<S.EmailLink>
-						<FiMail style={{ marginRight: 10 }} size={20} />contato@newlifeodontologia.com
-					</S.EmailLink>
-				</S.Localizacao>
+				<S.LinksWrapper>
+					<S.LiksUteis>
+						<S.Title>Links Úteis</S.Title>
+						{NavLinks.map((link) => {
+							return <S.Links href={link.href}>{link.label}</S.Links>;
+						})}
+					</S.LiksUteis>
+					<S.Localizacao>
+						<S.Title>Localização</S.Title>
+						<S.Endereco>Av. Presidente Wenceslau Braz, 4015 Portão, Curitiba - PR, 81010-001</S.Endereco>
+						<TelefoneButton variant="white" />
+						<S.EmailLink>
+							<FiMail style={{ marginRight: 10 }} size={20} />contato@newlifeodontologia.com
+						</S.EmailLink>
+					</S.Localizacao>
+				</S.LinksWrapper>
 			</S.Content>
 		</S.Container>
 	);

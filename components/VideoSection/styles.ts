@@ -1,12 +1,14 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
-    width:99.9vw;
+    width:100%;
     background-image:url('./Pattern.png'); 
     display:flex;
     align-items:center;
     justify-content:center;
     padding: 40px;
+    @media (min-width: 768px) and (max-width:1023px){
+    }
 `;
 
 export const Content = styled.div`
@@ -14,12 +16,18 @@ export const Content = styled.div`
     display:flex;
     align-items:center;
     justify-content:space-around;
+    @media (min-width: 768px) and (max-width:1023px){
+        flex-direction: column;
+    }
 `;
 
 export const VideoContainer = styled.div`
     margin-right: 25px;
     box-shadow: -5px 0px 25px rgba(0, 0, 0, 0.6);
     border-radius: 20px;
+    @media (min-width: 768px) and (max-width:1023px){
+        margin-bottom: 50px;
+    }
 `;
 
 export const TextContainer = styled.div`
