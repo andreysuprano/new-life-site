@@ -9,13 +9,12 @@ export const Container = styled.div`
     padding: 40px;
 `;
 export const Content = styled.div`
-    max-width:1100px;
+    max-width:1300px;
 `;
 
 export const Wrapper = styled.div`
     display: flex;
-    justify-content: space-around;
-    align-items: center;
+    justify-content: space-between;
 `;
 
 export const CopyLinks = styled.a`
