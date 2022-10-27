@@ -3,8 +3,8 @@ export type NavLink = {
     href:string
 }
 export const NavLinks: NavLink[] = [
-    {label: 'Quem Somos', href:''},
-    {label: 'Serviços', href:''},
-    {label: 'Conheça a New Life', href:''},
-    {label: 'Contato', href:''},
+    {label: 'Quem Somos', href:'#quem-somos'},
+    {label: 'Serviços', href:'#servicos'},
+    {label: 'Conheça a New Life', href:'#video'},
+    {label: 'Contato', href:'#contato'},
 ]

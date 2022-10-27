@@ -4,7 +4,7 @@ import Icon from '../../assets/svg/denteVazado.svg';
 
 export const ContatoSection = () => {
 	return (
-		<S.Container>
+		<S.Container id="contato">
 			<S.Content>
 				<S.TitleBox>
 					<S.Span>

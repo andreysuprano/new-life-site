@@ -4,7 +4,7 @@ import ImageQuemSomos from '../../assets/img/ImageQuemSomos.png';
 
 export const AboutSection = () => {
 	return (
-		<S.Center>
+		<S.Center id="quem-somos">
 			<S.Container>
 				<S.Content>
 					<S.ImageContainer>

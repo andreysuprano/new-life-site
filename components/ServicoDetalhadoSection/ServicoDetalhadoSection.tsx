@@ -9,7 +9,7 @@ import * as S from './styles';
 
 export const ServicoDetalhadoSection = () => {
 	return (
-		<S.Container>
+		<S.Container id="servicos">
 			<S.Wrapper>
 				<S.Title>Somos especialistas!</S.Title>
 				<S.Description>

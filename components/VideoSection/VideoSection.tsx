@@ -4,7 +4,7 @@ import Icon from '../../assets/svg/denteVazado.svg';
 
 export const VideoSection = () => {
 	return (
-		<S.Container>
+		<S.Container id="video">
 			<S.Content>
 				<S.VideoContainer>
 					<iframe
