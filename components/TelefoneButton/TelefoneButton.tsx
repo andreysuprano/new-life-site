@@ -8,7 +8,7 @@ export interface TelefoneButtonProps {
 export const TelefoneButton = ({ variant }: TelefoneButtonProps) => {
 	return (
 		<S.Container>
-			<S.Text href="" variant={variant ? variant : 'primary'}>
+			<S.Text href="encurtador.com.br/bjknP" variant={variant ? variant : 'primary'}>
 				<FiPhone style={{ marginRight: 10 }} size={20} />(41) 99333-3333
 			</S.Text>
 		</S.Container>

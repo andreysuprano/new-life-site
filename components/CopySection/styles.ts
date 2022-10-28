@@ -38,6 +38,12 @@ export const CopyLinks = styled.a`
     font-weight: 200;
     margin-right: 150px;
     margin-left: 150px;
+
+    @media (min-width: 768px) and (max-width:1023px){
+        margin-right: 30px;
+        margin-left: 30px;
+    }
+
     @media (max-width:767px){
         display: flex;
         justify-content: center;

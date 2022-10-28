@@ -1,6 +1,7 @@
 import * as S from './styles';
 import Image from 'next/image';
 import Icon from '../../assets/svg/denteVazado.svg';
+import { sendToLink } from '../../util/sendToLink';
 
 export const VideoSection = () => {
 	return (
@@ -24,7 +25,7 @@ export const VideoSection = () => {
 						máximo de qualidade e agilidade, realizado pelos melhores profissionais com os melhores
 						materiais e produtos odontológicos!
 					</S.Paragraph>
-					<S.Button>Quero conhecer!</S.Button>
+					<S.Button onClick={() => sendToLink('encurtador.com.br/bjknP')}>Quero conhecer!</S.Button>
 				</S.TextContainer>
 			</S.Content>
 		</S.Container>

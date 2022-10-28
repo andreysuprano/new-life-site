@@ -15,7 +15,7 @@ export const Footer = () => {
 						“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
 						labore et dolore magna aliqua. Sit amet consectetur adipiscing elit.{' '}
 					</S.Paragraph>
-					<S.WhatsButton>WhatsApp</S.WhatsButton>
+					<S.WhatsButton href="encurtador.com.br/bjknP">WhatsApp</S.WhatsButton>
 				</S.BrandArea>
 				<S.LinksWrapper>
 					<S.LiksUteis>

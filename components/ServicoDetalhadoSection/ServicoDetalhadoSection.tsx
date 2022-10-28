@@ -17,12 +17,32 @@ export const ServicoDetalhadoSection = () => {
 					buscando a satistafação de nossos clientes!
 				</S.Description>
 				<S.Divider>
-					<CardServicoDetalhado icon={ImplanteIcon} title="Implantes & Próteses" href="" text="" />
-					<CardServicoDetalhado icon={ClareamentoDental} title="Facetas & Lentes" href="" text="" />
+					<CardServicoDetalhado
+						icon={ImplanteIcon}
+						title="Implantes & Próteses"
+						href="encurtador.com.br/bjknP"
+						text=""
+					/>
+					<CardServicoDetalhado
+						icon={ClareamentoDental}
+						title="Facetas & Lentes"
+						href="encurtador.com.br/bjknP"
+						text=""
+					/>
 				</S.Divider>
 				<S.Divider>
-					<CardServicoDetalhado icon={AlinhadoresIcon} title="Alinhadores Invisíveis" href="" text="" />
-					<CardServicoDetalhado icon={LaserIcon} title="Harmonização Facial" href="" text="" />
+					<CardServicoDetalhado
+						icon={AlinhadoresIcon}
+						title="Alinhadores Invisíveis"
+						href="encurtador.com.br/bjknP"
+						text=""
+					/>
+					<CardServicoDetalhado
+						icon={LaserIcon}
+						title="Harmonização Facial"
+						href=""
+						text="encurtador.com.br/bjknP"
+					/>
 				</S.Divider>
 			</S.Wrapper>
 		</S.Container>
