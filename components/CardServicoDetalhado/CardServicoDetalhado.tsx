@@ -16,12 +16,8 @@ export const CardServicoDetalhado = ({ icon, title, text, href }: CardServicoPro
 					<Image src={icon} alt={title} />
 					<S.Title>{title}</S.Title>
 				</S.CardHeader>
-				<S.Paragraph>
-					Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-					et dolore magna aliqua. Sit amet consectetur adipiscing elit. Ac tortor vitae purus faucibus.
-					Euismod in pellentesque massa placerat duis. Consequat id porta nibh venenatis cras.
-				</S.Paragraph>
-				<S.Link href={href}>Ver mais</S.Link>
+				<S.Paragraph>{text}</S.Paragraph>
+				<S.Link href={'encurtador.com.br/bjknP'}>Ver mais</S.Link>
 			</S.Content>
 		</S.Container>
 	);

@@ -12,8 +12,8 @@ export const Footer = () => {
 				<S.BrandArea>
 					<Image src={Logo} alt="" style={{ marginTop: 20 }} />
 					<S.Paragraph>
-						“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-						labore et dolore magna aliqua. Sit amet consectetur adipiscing elit.{' '}
+						A New Life é renomada em Curitiba, sendo conhecida por prestar um excelente serviço, trazendo
+						conforto e comodidade para o cliente, que pode ter todo o seu atendimento em um único lugar.
 					</S.Paragraph>
 					<S.WhatsButton href="encurtador.com.br/bjknP">WhatsApp</S.WhatsButton>
 				</S.BrandArea>
