@@ -24,6 +24,9 @@ export const Wrapper = styled.div`
     width: 80vw;
     height: auto;
     padding: 100px;
+    @media (max-width:767px){
+        padding: 80px;
+    }
 `;
 
 export const LinksBox = styled.div`
