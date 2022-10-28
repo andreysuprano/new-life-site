@@ -9,6 +9,11 @@ export const Center = styled.div`
     @media (min-width: 768px) and (max-width:1023px){
         margin-top:-45px;
     }
+    @media (max-width:767px){
+        margin-top:-60px;
+        flex-direction: column;
+        display: none;
+    }
 `;
 
 export const Wraper = styled.div`
@@ -16,10 +21,18 @@ export const Wraper = styled.div`
     @media (min-width: 768px) and (max-width:1023px){
         width:100vw;
     }
+    @media (max-width:767px){
+        width:100vw;
+        flex-direction: column;
+    }
 `;
 
 export const Container = styled.div`
     display: flex;
+    @media (max-width:767px){
+        width:100vw;
+        flex-direction: column;
+    }
 `;
 
 export const CardBox = styled.div`
@@ -30,5 +43,11 @@ export const CardBox = styled.div`
         max-width:100vw;
         padding-left:20px;
         padding-right:20px;
+    }
+    @media (max-width:767px){
+        max-width:100vw;
+        flex-direction: column;
+        padding-left: 40px;
+        padding-right: 40px;
     }
 `;

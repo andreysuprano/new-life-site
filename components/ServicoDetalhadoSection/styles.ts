@@ -8,6 +8,11 @@ export const Divider = styled.div`
         justify-content: center;
         align-items: center;
     }
+    @media (max-width:767px){
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
 `;
 
 export const Container = styled.div`
@@ -15,7 +20,9 @@ export const Container = styled.div`
     justify-content: center;
     margin-top: 80px;
     padding-bottom:150px;
-    @media (min-width: 768px) and (max-width:1023px){
+    @media (max-width:767px){
+        width: 100%;
+        padding-bottom:50px;
     }
 `;
 
@@ -24,6 +31,12 @@ export const Wrapper = styled.div`
     display: flex;
     flex-direction: column;
     padding: 50px;
+    justify-content: center;
+    align-items: center;
+    @media (max-width:767px){
+        width: 100%;
+        padding: 20px;
+    }
 `;
 
 export const Title = styled.h1`
@@ -32,10 +45,16 @@ export const Title = styled.h1`
     font-weight:900;
     font-size:48px;
     margin-bottom: 30px;
+    @media (max-width:767px){
+        font-size:42px;
+    }
 `;
 
 export const Description = styled.p`
     font-size: 22px;
     text-align: center;
     margin-bottom: 30px;
+    @media (max-width:767px){
+        font-size:18px;
+    }
 `;

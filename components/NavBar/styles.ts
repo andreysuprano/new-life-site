@@ -6,8 +6,6 @@ export const Nav = styled.nav`
     background-color:${props => props.theme.backgroundGrey};
     display:flex;
     justify-content: center;
-    @media (min-width: 768px) and (max-width:1023px){
-    }
 `;
 
 export const Container = styled.nav`
@@ -15,7 +13,13 @@ export const Container = styled.nav`
     display:flex;
     align-items:center;
     justify-content: space-around;
+
+    @media (min-width: 768px) and (max-width:1023px){
+        justify-content: space-between;
+    }
+
     @media (max-width:767px){
+        justify-content: space-between;
     }
 `;
 
@@ -25,10 +29,10 @@ export const BrandContainer = styled.div`
 
 export const MenuContainer = styled.div`
     @media (min-width: 768px) and (max-width:1023px){
-        visibility: hidden;
+        display: none;
     }
     @media (max-width:767px){
-        visibility: hidden;
+        display: none;
     }
 `;
 
@@ -36,10 +40,10 @@ export const BtnMenuContainer = styled.div`
     display:flex;
     align-items:center;
     @media (min-width: 768px) and (max-width:1023px){
-        visibility: hidden;
+        display: none;
     }
     @media (max-width:767px){
-        visibility: hidden;
+        display: none;
     }
 `;
 

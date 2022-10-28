@@ -7,15 +7,26 @@ export const Container = styled.div`
     display:flex;
     justify-content:center;
     padding: 40px;
+    @media (max-width:767px){
+        padding: 15px;
+        height: auto;
+    }
 `;
+
 export const Content = styled.div`
     max-width:1100px;
     display: flex;
     flex-direction: column;
     align-items: center;
+
     @media (min-width: 768px) and (max-width:1023px){
        justify-content: center;
        margin-bottom: 10px;
+    }
+    @media (max-width:767px){
+        max-width:100%;
+        justify-content: center;
+        padding-bottom: 25px;
     }
 `;
 
@@ -27,9 +38,14 @@ export const Span = styled.span`
     align-items: center;
     justify-content: center;
     margin-bottom: 25px;
+
     @media (min-width: 768px) and (max-width:1023px){
        justify-content: center;
        align-items: center;
+    }
+
+    @media (max-width:767px){
+        display: none;
     }
 `;
 
@@ -40,6 +56,9 @@ export const TitleBox = styled.div`
     justify-content: center;
     @media (min-width: 768px) and (max-width:1023px){
        text-align: center;
+    }
+    @media (max-width:767px){
+        text-align: center;
     }
 `;
 
@@ -61,6 +80,9 @@ export const InputForm = styled.input`
     &::placeholder{
         color: #fff;
     }
+    @media (max-width:767px){
+        width: 350px;
+    }    
 `;
 
 export const InputBox = styled.div`

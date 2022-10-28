@@ -8,7 +8,7 @@ export const AboutSection = () => {
 			<S.Container>
 				<S.Content>
 					<S.ImageContainer>
-						<Image src={ImageQuemSomos} alt="A clinica por dentro" />
+						<S.ImageClinica src={ImageQuemSomos} alt="A clinica por dentro" />
 					</S.ImageContainer>
 					<S.TextContainer>
 						<S.Span>Quem somos?</S.Span>

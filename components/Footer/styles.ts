@@ -11,12 +11,20 @@ export const Container = styled.div`
         height: auto;
         align-items: center;
     }
+    @media (max-width:767px){
+        height: auto;
+        align-items: center;
+    }
+
 `;
 export const Content = styled.div`
     max-width:1500px;
     display: flex;
     justify-content: space-between;
     @media (min-width: 768px) and (max-width:1023px){
+        flex-direction: column;
+    }
+    @media (max-width:767px){
         flex-direction: column;
     }
 `;
@@ -42,6 +50,14 @@ export const BrandArea = styled.div`
         display: flex;
         align-items: center;
     }
+     @media (max-width:767px){
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+        margin-top:0px;
+        display: flex;
+        align-items: center;
+     }
 `;
 
 export const Paragraph = styled.p`
@@ -75,6 +91,9 @@ export const LiksUteis = styled.div`
     @media (min-width: 768px) and (max-width:1023px){
         height: 200px;
     }
+    @media (max-width:767px){
+        height: auto;   
+    }
 `;
 
 export const Localizacao = styled.div`
@@ -86,6 +105,11 @@ export const Localizacao = styled.div`
     margin-left: -50px;
     @media (min-width: 768px) and (max-width:1023px){
         height: 200px;
+        margin-left: 0px;
+    }
+    @media (max-width:767px){
+        height: auto;  
+        margin-left: 10px;
     }
 `;
 
@@ -116,5 +140,10 @@ export const LinksWrapper = styled.div`
     @media (min-width: 768px) and (max-width:1023px){
         align-items: center;
         justify-content: center;
+    }
+    @media (max-width:767px){
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;    
     }
 `;

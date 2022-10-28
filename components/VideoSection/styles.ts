@@ -19,14 +19,19 @@ export const Content = styled.div`
     @media (min-width: 768px) and (max-width:1023px){
         flex-direction: column;
     }
+    @media (max-width:767px){
+        flex-direction: column;
+    }
 `;
 
 export const VideoContainer = styled.div`
     margin-right: 25px;
-    box-shadow: -5px 0px 25px rgba(0, 0, 0, 0.6);
     border-radius: 20px;
     @media (min-width: 768px) and (max-width:1023px){
         margin-bottom: 50px;
+    }
+    @media (max-width:767px){
+        padding: 20px;
     }
 `;
 
@@ -53,6 +58,9 @@ export const Span = styled.span`
     font-weight: 300;
     display: flex;
     align-items: center;
+    @media (max-width:767px){
+        margin-top: 30px;
+    }
 `;
 
 export const Button = styled.button`
@@ -69,4 +77,15 @@ export const Button = styled.button`
         transition:0.5s;
     }
     margin-top: 25px;
+`;
+
+export const Iframe = styled.iframe`
+    width: 600px;
+    height: 355px;
+    box-shadow: -5px 0px 25px rgba(0, 0, 0, 0.6);
+
+    @media (max-width:767px){
+        width: 330px;
+        height: 180px;
+    }
 `;

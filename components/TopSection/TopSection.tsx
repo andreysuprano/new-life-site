@@ -15,7 +15,7 @@ export const TopSection = () => {
 					<S.Button>Quero conhecer mais!</S.Button>
 				</S.TextContainer>
 				<S.ImageContainer>
-					<Image src={Tony} alt="Dr. Tony Esper Jr" />
+					<S.ImageTop src={Tony} alt="Dr. Tony Esper Jr" />
 				</S.ImageContainer>
 			</S.Content>
 		</S.Container>
