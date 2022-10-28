@@ -4,7 +4,7 @@ import { NavLinks } from '../NavBar/NavLinks';
 
 export interface MobileMenuProps {
 	active: boolean;
-	onClose(): () => {};
+	onClose(): void;
 }
 
 export const MobileMenu = ({ active, onClose }: MobileMenuProps) => {
