@@ -26,7 +26,7 @@ export const NavBar = () => {
 				</S.MenuContainer>
 				<S.BtnMenuContainer>
 					<TelefoneButton />
-					<S.NavButton onClick={() => sendToLink('encurtador.com.br/bjknP')}>Agendamento</S.NavButton>
+					<S.NavButton onClick={() => sendToLink('https://encurtador.com.br/bjknP')}>Agendamento</S.NavButton>
 				</S.BtnMenuContainer>
 				<S.MenuHarmburger>
 					<GiHamburgerMenu size={30} onClick={() => setIsActive(true)} />

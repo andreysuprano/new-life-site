@@ -15,7 +15,7 @@ export const Footer = () => {
 						A New Life é renomada em Curitiba, sendo conhecida por prestar um excelente serviço, trazendo
 						conforto e comodidade para o cliente, que pode ter todo o seu atendimento em um único lugar.
 					</S.Paragraph>
-					<S.WhatsButton href="encurtador.com.br/bjknP">WhatsApp</S.WhatsButton>
+					<S.WhatsButton href="https://encurtador.com.br/bjknP">WhatsApp</S.WhatsButton>
 				</S.BrandArea>
 				<S.LinksWrapper>
 					<S.LiksUteis>

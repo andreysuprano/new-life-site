@@ -25,7 +25,7 @@ export const VideoSection = () => {
 						máximo de qualidade e agilidade, realizado pelos melhores profissionais com os melhores
 						materiais e produtos odontológicos!
 					</S.Paragraph>
-					<S.Button onClick={() => sendToLink('encurtador.com.br/bjknP')}>Quero conhecer!</S.Button>
+					<S.Button onClick={() => sendToLink('https://encurtador.com.br/bjknP')}>Quero conhecer!</S.Button>
 				</S.TextContainer>
 			</S.Content>
 		</S.Container>

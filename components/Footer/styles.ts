@@ -75,11 +75,17 @@ export const Endereco = styled.p`
 
 export const WhatsButton = styled.a`
     text-decoration: none;
-    color: ${props => props.theme.primary};
-    padding-left: 15px;
+    background-color: #34af23;
+    color: #fff;
+    padding: 10px;
+    margin-left: 15px;
     font-weight: 700;
     cursor: pointer;
     font-size: 18px;
+    border-radius: 10px;
+    &:hover{
+        color: #fff;
+    }
 `;
 
 export const LiksUteis = styled.div`
