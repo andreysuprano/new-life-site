@@ -1,6 +1,7 @@
 import React, { ReactElement } from "react";
 import Document, { Html, Head, Main, NextScript, DocumentInitialProps, DocumentContext } from 'next/document';
 import { ServerStyleSheet } from "styled-components";
+import { Title } from "../components/AboutSection/styles";
 
 // NEXT.JS CUSTOM DOCUMENT
 // https://nextjs.org/docs/advanced-features/custom-document
@@ -37,6 +38,7 @@ export default class MyDocument extends Document {
     return(
       <Html lang="pt-BR">
         <Head>
+          <Title>New Life Odontologia</Title>
           <script
             dangerouslySetInnerHTML={{
               __html: `(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
