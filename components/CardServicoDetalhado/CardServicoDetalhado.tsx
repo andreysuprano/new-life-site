@@ -17,7 +17,9 @@ export const CardServicoDetalhado = ({ icon, title, text, href }: CardServicoPro
 					<S.Title>{title}</S.Title>
 				</S.CardHeader>
 				<S.Paragraph>{text}</S.Paragraph>
-				<S.Link href={'https://encurtador.com.br/bjknP'}>Ver mais</S.Link>
+				<S.Link id="btn-whats" href={'https://encurtador.com.br/bjknP'}>
+					Ver mais
+				</S.Link>
 			</S.Content>
 		</S.Container>
 	);
