@@ -1,6 +1,7 @@
 import * as S from './styles';
 import Image from 'next/image';
 import Icon from '../../assets/svg/denteVazado.svg';
+import { RiWhatsappLine } from 'react-icons/ri';
 
 export const ContatoSection = () => {
 	return (
@@ -13,12 +14,22 @@ export const ContatoSection = () => {
 					</S.Span>
 					<S.Title>O que está esperando para agendar sua avaliação?</S.Title>
 				</S.TitleBox>
-				<S.InputBox>
+				{/* <S.InputBox>
 					<S.InputForm placeholder="Seu nome completo" />
 					<S.InputForm placeholder="Seu email" />
 					<S.InputForm placeholder="Seu Telefone (Com WhatsApp)" />
 					<S.Button>Enviar</S.Button>
-				</S.InputBox>
+				</S.InputBox> */}
+				<S.ButtonWhatsWrapper href="https://encurtador.com.br/bjknP">
+					<S.ButtonWhats>
+						<S.Icon>
+							<RiWhatsappLine size={80} color="#fff" />
+						</S.Icon>
+						<S.TextButton>
+							<S.Text>WhatsApp</S.Text>
+						</S.TextButton>
+					</S.ButtonWhats>
+				</S.ButtonWhatsWrapper>
 			</S.Content>
 		</S.Container>
 	);
