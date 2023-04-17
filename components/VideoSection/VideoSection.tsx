@@ -9,7 +9,7 @@ export const VideoSection = () => {
 			<S.Content>
 				<S.VideoContainer>
 					<S.Iframe
-						src="https://www.youtube.com/embed/WiULw9lzm0k"
+						src="https://www.youtube.com/embed/_7DUg5zlBUk"
 						allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
 					/>
 				</S.VideoContainer>
