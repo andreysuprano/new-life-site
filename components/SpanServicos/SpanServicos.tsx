@@ -11,16 +11,14 @@ import LaserIcon from '../../assets/img/LaserIcon.png';
 export const SpanServicos = () => {
 	return (
 		<S.Center>
-			<S.Container>
-				<S.Wraper>
-					<S.CardBox>
-						<CardServico icon={ImplanteIcon} title="Implantes & Próteses" />
-						<CardServico icon={ClareamentoDental} title="Facetas & Lentes" />
-						<CardServico icon={AlinhadoresIcon} title="Alinhadores Invisíveis" />
-						<CardServico icon={LaserIcon} title="Harmonização Facial" />
-					</S.CardBox>
-				</S.Wraper>
-			</S.Container>
+			<S.Wraper>
+				<S.CardBox>
+					<CardServico icon={ImplanteIcon} title="Implantes & Próteses" />
+					<CardServico icon={ClareamentoDental} title="Facetas & Lentes" />
+					<CardServico icon={AlinhadoresIcon} title="Alinhadores Invisíveis" />
+					<CardServico icon={LaserIcon} title="Harmonização Facial" />
+				</S.CardBox>
+			</S.Wraper>
 		</S.Center>
 	);
 };

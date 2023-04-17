@@ -9,9 +9,9 @@ export const TopSection = () => {
 			<S.Content>
 				<S.TextContainer>
 					<S.Label>Qualidade e Profissionalismo</S.Label>
-					<S.Title>Faça tudo em um único lugar.</S.Title>
+					<S.Title>Faça tudo num só lugar!</S.Title>
 					<S.Paragraph>
-						Cobrimos todos os procedimentos, para lhe dar conforto e velocidade no seu tratamento!
+						Realizamos todos os procedimentos, para lhe dar conforto e agilidade ao seu tratamento!
 					</S.Paragraph>
 					<S.Button
 						id="btn-whats"

@@ -10,9 +10,9 @@ export const ContatoSection = () => {
 				<S.TitleBox>
 					<S.Span>
 						<Image src={Icon} alt="" style={{ marginRight: 10 }} />
-						Deixe seu contato, nosso time entrará em contato com você!
+						O que está esperando para agendar sua avaliação?
 					</S.Span>
-					<S.Title>O que está esperando para agendar sua avaliação?</S.Title>
+					<S.Title>Entre em contato agora!</S.Title>
 				</S.TitleBox>
 				{/* <S.InputBox>
 					<S.InputForm placeholder="Seu nome completo" />

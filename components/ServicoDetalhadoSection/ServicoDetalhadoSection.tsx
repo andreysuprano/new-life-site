@@ -13,7 +13,7 @@ export const ServicoDetalhadoSection = () => {
 			<S.Wrapper>
 				<S.Title>Somos especialistas!</S.Title>
 				<S.Description>
-					Temos um amplo time de especialistas cada um focado na sua área para entregar sempre o melhor,
+					Temos um amplo time de especialistas, cada um focado na sua área para entregar sempre o melhor,
 					buscando a satistafação de nossos clientes!
 				</S.Description>
 				<S.Divider>
