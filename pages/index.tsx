@@ -1,14 +1,15 @@
-import { AboutSection } from '../components/AboutSection/AboutSection';
-import { ContatoSection } from '../components/ContatoSection/ContatoSection';
+import ContatoChr from '../components/ContatoChr';
 import { CopySection } from '../components/CopySection/CopySection';
+import FeatureChackra from '../components/FeatureChackra';
 import { FlutuantWhats } from '../components/FlutuantWhats/FtutantWhats';
 import { Footer } from '../components/Footer/Footer';
-import { MobileMenu } from '../components/MobileMenu/MobileMenu';
 import { NavBar } from '../components/NavBar/NavBar';
-import { ServicoDetalhadoSection } from '../components/ServicoDetalhadoSection/ServicoDetalhadoSection';
+import NavBarChr from '../components/NavBarChr';
+import ServicesChr from '../components/ServicesChr';
 import { SpanServicos } from '../components/SpanServicos/SpanServicos';
+import TestimonialSection from '../components/Testmonials';
 import { TopSection } from '../components/TopSection/TopSection';
-import { VideoSection } from '../components/VideoSection/VideoSection';
+import VideoSectionChr from '../components/VideoSectionChr';
 
 function Home() {
 	return (
@@ -16,10 +17,11 @@ function Home() {
 			<NavBar />
 			<TopSection />
 			<SpanServicos />
-			<AboutSection />
-			<VideoSection />
-			<ServicoDetalhadoSection />
-			<ContatoSection />
+			<FeatureChackra />
+			<VideoSectionChr />
+			<ServicesChr />
+			<ContatoChr />
+			<TestimonialSection />
 			<Footer />
 			<CopySection />
 			<FlutuantWhats />

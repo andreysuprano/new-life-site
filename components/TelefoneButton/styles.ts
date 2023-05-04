@@ -2,8 +2,10 @@ import styled, { keyframes } from 'styled-components';
 import { TelefoneButtonProps } from './TelefoneButton';
 
 export const Container = styled.div`
-	margin-right: 20px;
 	display: flex;
+	width: 200px;
+	align-items: center;
+	justify-content: center;
 `;
 
 export const Text =

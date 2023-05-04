@@ -63,7 +63,7 @@ export const NavButton = styled.button`
 export const NavLink = styled.a`
 	text-decoration: none;
 	margin-right: 25px;
-	font-size: 1rem;
+	font-size: 1rm;
 	color: ${(props) => props.theme.primary};
 	font-weight: 500;
 `;

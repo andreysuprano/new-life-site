@@ -1,10 +1,7 @@
-import { Box, Button, Container, Flex, Heading, Icon, Img, Stack, Text, useColorModeValue } from '@chakra-ui/react';
+import { Box, Button, Container, Flex, Heading, Stack, Text, useColorModeValue } from '@chakra-ui/react';
 import { ReactElement } from 'react';
-import { FcAbout, FcAssistant, FcCollaboration, FcDonate, FcManager } from 'react-icons/fc';
 
-import ClareamentoDental from '../../assets/img/ClareamentoDental.png';
-import AlinhadoresIcon from '../../assets/img/AlinhadoresIcon.png';
-import LaserIcon from '../../assets/img/LaserIcon.png';
+import { useRouter } from 'next/router';
 
 interface CardProps {
 	heading: string;
@@ -14,6 +11,7 @@ interface CardProps {
 }
 
 const Card = ({ heading, description, icon, href }: CardProps) => {
+	const router = useRouter();
 	return (
 		<Box
 			maxW={{ base: 'full', md: '275px' }}
@@ -41,7 +39,14 @@ const Card = ({ heading, description, icon, href }: CardProps) => {
 						{description}
 					</Text>
 				</Box>
-				<Button variant={'link'} colorScheme={'blue'} size={'sm'}>
+				<Button
+					variant={'link'}
+					colorScheme={'blue'}
+					size={'sm'}
+					onClick={() => {
+						router.push(href);
+					}}
+				>
 					Ver mais
 				</Button>
 			</Stack>
@@ -72,7 +77,7 @@ export default function ServicesChr() {
 						description={
 							'O implante dentário é utilizado com frequência nos consultórios, possibilitando a reposição do dente perdido. Mesmo necessitando de uma cirurgia prévia, eles apresentam a possibilidade de devolver uma ótima mastigação ao paciente.'
 						}
-						href={'#'}
+						href={'implantes-proteses'}
 					/>
 					<Card
 						heading={'Facetas & Lentes'}
@@ -82,7 +87,7 @@ export default function ServicesChr() {
 						description={
 							'Elas corrigem problemas e imperfeições dos dentes como o fechamento de espaços entre dentes, pequenas correções na forma e cor de dentes anteriores ou até mesmo transformações estéticas mais marcantes do sorriso.'
 						}
-						href={'#'}
+						href={'facetas-lentes'}
 					/>
 					<Card
 						heading={'Alinhadores Invisíveis'}
@@ -92,7 +97,7 @@ export default function ServicesChr() {
 						description={
 							'Os alinhadores invisíveis, são extremamente estéticos e quase imperceptíveis. Na hora de comer, é só retirar o seu alinhador, guardar e pronto além de ser muito fácil para higienizar.'
 						}
-						href={'#'}
+						href={'alinhadores-invisiveis'}
 					/>
 					<Card
 						heading={'Harmonização Facial'}
@@ -102,7 +107,7 @@ export default function ServicesChr() {
 						description={
 							'Temos uma variedade de procedimentos estéticos que promovem aos pacientes aumento da auto estima e confiança no dia dia, na New Life temos profissionais especializados em cada área de atuação ofertando os melhores resultados.'
 						}
-						href={'#'}
+						href={'harmonizacao-facial'}
 					/>
 				</Flex>
 			</Container>
