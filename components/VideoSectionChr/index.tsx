@@ -40,7 +40,7 @@ export default function VideoSectionChr() {
 								zIndex: -1
 							}}
 						>
-							Sem correria!,
+							Sem correria,
 						</Text>
 						<br />
 						<Text as={'span'} color={'#153172'}>
