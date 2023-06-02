@@ -11,11 +11,20 @@ import {
 	IconButton,
 	createIcon,
 	IconProps,
-	useColorModeValue
+	useColorModeValue,
+	useDisclosure,
+	Modal,
+	ModalOverlay,
+	ModalContent,
+	ModalHeader,
+	ModalCloseButton,
+	ModalBody
 } from '@chakra-ui/react';
 import { sendToLink } from '../../util/sendToLink';
+import { useState } from 'react';
 
 export default function VideoSectionChr() {
+	const [ isPlay, setIsPlay ] = useState(false);
 	return (
 		<Container maxW={'7xl'}>
 			<Stack
@@ -86,32 +95,48 @@ export default function VideoSectionChr() {
 						position={'relative'}
 						height={'300px'}
 						rounded={'2xl'}
-						boxShadow={'2xl'}
+						// boxShadow={'2xl'}
 						width={'full'}
 						overflow={'hidden'}
 					>
-						<IconButton
-							aria-label={'Play Button'}
-							variant={'ghost'}
-							_hover={{ bg: 'transparent' }}
-							icon={<PlayIcon w={12} h={12} />}
-							size={'lg'}
-							color={'white'}
-							position={'absolute'}
-							left={'50%'}
-							top={'50%'}
-							transform={'translateX(-50%) translateY(-50%)'}
+						<iframe
+							width="560"
+							height="310"
+							src="https://www.youtube.com/embed/_7DUg5zlBUk"
+							title="YouTube video player"
+							allow="accelerometer; autoplay=true; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+							style={{ borderRadius: '20px' }}
 						/>
-						<Image
-							alt={'Hero Image'}
-							fit={'cover'}
-							align={'center'}
-							w={'100%'}
-							h={'100%'}
-							src={
-								'https://firebasestorage.googleapis.com/v0/b/projetcs-storage.appspot.com/o/newlife%2FUntitled_1.3.1.jpg?alt=media&token=c57843ff-3462-46f6-9313-6f692214245a'
-							}
-						/>
+						{/* <Flex>
+								<IconButton
+									aria-label={'Play Button'}
+									variant={'ghost'}
+									_hover={{ bg: 'transparent' }}
+									icon={<PlayIcon w={12} h={12} />}
+									size={'lg'}
+									color={'white'}
+									position={'absolute'}
+									left={'50%'}
+									top={'50%'}
+									transform={'translateX(-50%) translateY(-50%)'}
+									onClick={() => {
+										setIsPlay(true);
+									}}
+								/>
+								<Image
+									onClick={() => {
+										setIsPlay(true);
+									}}
+									alt={'Hero Image'}
+									fit={'cover'}
+									align={'center'}
+									w={'100%'}
+									h={'100%'}
+									src={
+										'https://firebasestorage.googleapis.com/v0/b/projetcs-storage.appspot.com/o/newlife%2FUntitled_1.3.1.jpg?alt=media&token=c57843ff-3462-46f6-9313-6f692214245a'
+									}
+								/>
+							</Flex> */}
 					</Box>
 				</Flex>
 			</Stack>
