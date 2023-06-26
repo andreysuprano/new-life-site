@@ -23,7 +23,7 @@ import {
 import { sendToLink } from '../../util/sendToLink';
 import { useState } from 'react';
 
-export default function VideoSectionChr() {
+export default function TopoImplantes() {
 	const [ isPlay, setIsPlay ] = useState(false);
 	return (
 		<Container maxW={'7xl'} bgColor="#ECF1F6">
@@ -49,17 +49,17 @@ export default function VideoSectionChr() {
 								zIndex: -1
 							}}
 						>
-							Facetas e
+							Implantes
 						</Text>
 						<br />
 						<Text as={'span'} color={'#153172'}>
-							Lentes
+							& Próteses
 						</Text>
 					</Heading>
 					<Text color={'gray.500'}>
-						Elas corrigem problemas e imperfeições dos dentes como o fechamento de espaços entre dentes,
-						pequenas correções na forma e cor de dentes anteriores ou até mesmo transformações estéticas
-						mais marcantes do sorriso.
+						O implante dentário é utilizado com frequência nos consultórios, possibilitando a reposição do
+						dente perdido. Mesmo necessitando de uma cirurgia prévia, eles apresentam a possibilidade de
+						devolver uma ótima mastigação ao paciente.
 					</Text>
 					<Stack spacing={{ base: 4, sm: 6 }} direction={{ base: 'column', sm: 'row' }}>
 						<Button
@@ -101,7 +101,7 @@ export default function VideoSectionChr() {
 						<iframe
 							width="560"
 							height="310"
-							src="https://www.youtube.com/embed/0OhAIe4JZNs"
+							src="https://www.youtube.com/embed/6QSFCr-JxLg"
 							title="YouTube video player"
 							allow="accelerometer; autoplay=true; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
 							style={{ borderRadius: '20px' }}
