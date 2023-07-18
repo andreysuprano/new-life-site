@@ -20,10 +20,10 @@ function Home() {
 			<FeatureChackra />
 			<VideoSectionChr />
 			<ServicesChr />
-			<ContatoChr />
 			<TestimonialSection />
+			<ContatoChr />
 			<Footer />
-			<CopySection />
+			{/* <CopySection /> */}
 			<FlutuantWhats />
 		</div>
 	);

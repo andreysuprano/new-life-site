@@ -11,6 +11,7 @@ export default function ContatoChr() {
 			}
 			backgroundSize={'cover'}
 			backgroundPosition={'center center'}
+			id="contato"
 		>
 			<VStack
 				w={'full'}

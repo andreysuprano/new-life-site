@@ -26,7 +26,7 @@ import { useState } from 'react';
 export default function VideoSectionChr() {
 	const [ isPlay, setIsPlay ] = useState(false);
 	return (
-		<Container maxW={'7xl'}>
+		<Container maxW={'7xl'} id="video">
 			<Stack
 				align={'center'}
 				spacing={{ base: 8, md: 10 }}

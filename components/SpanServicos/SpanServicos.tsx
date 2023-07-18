@@ -26,10 +26,10 @@ export const SpanServicos = () => {
 	return (
 		<Flex p={4} alignContent={'center'} justifyContent={'center'} gap={10}>
 			<SimpleGrid columns={{ base: 1, md: 4 }} marginTop={'-30px'}>
-				<CardServico icon={ImplanteIcon} title="Implantes & Próteses" />
-				<CardServico icon={ClareamentoDental} title="Facetas & Lentes" />
-				<CardServico icon={AlinhadoresIcon} title="Alinhadores Invisíveis" />
-				<CardServico icon={LaserIcon} title="Harmonização Facial" />
+				<CardServico icon={ImplanteIcon} title="Implantes & Próteses" href="implantes-proteses" />
+				<CardServico icon={ClareamentoDental} title="Facetas & Lentes" href="facetas-lentes" />
+				<CardServico icon={AlinhadoresIcon} title="Alinhadores Invisíveis" href="alinhadores-invisiveis" />
+				<CardServico icon={LaserIcon} title="Harmonização Facial" href="harmonizacao-facial" />
 			</SimpleGrid>
 		</Flex>
 	);
