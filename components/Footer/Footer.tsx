@@ -55,7 +55,7 @@ export const Footer = () => {
 						<ListHeader>New Life | Capão Raso</ListHeader>
 						<Text>Av. Brasília, 6008 - Capão Raso, Curitiba - PR, 81020-010</Text>
 						<Text>
-							<strong>Atendimento:</strong> 08h às 19h (seg a sex) | 08h às 12h (sab)
+							<strong>Atendimento:</strong> 08h às 18h (seg a sex)
 						</Text>
 						<Text>
 							<strong>Telefone:</strong>
@@ -74,7 +74,7 @@ export const Footer = () => {
 						<ListHeader>New Life | Champagnat</ListHeader>
 						<Text>R. Francisco Rocha, 1850 - Bigorrilho, Curitiba - PR, 80730-390</Text>
 						<Text>
-							<strong>Atendimento:</strong> 08h às 19h (seg a sex) | 08h às 12h (sab)
+							<strong>Atendimento:</strong> 08h às 18h (seg a sex)
 						</Text>
 						<Text>
 							<strong>Telefone:</strong>
@@ -128,7 +128,7 @@ export const Footer = () => {
 								color: 'blue.300'
 							}}
 						>
-							Desenvolvido por Suprano Digital.
+							Develop by Suprano Digital.
 						</Link>
 					</Flex>
 				</Flex>
