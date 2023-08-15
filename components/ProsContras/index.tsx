@@ -17,11 +17,11 @@ export default function ProsContras() {
 				pt="80px"
 				pb="80px"
 				padding={{
-					base: '50px',
+					base: '30px',
 					xl: '30px',
 					lg: '30px',
-					sm: '50px',
-					md: '50px'
+					sm: '30px',
+					md: '30px'
 				}}
 			>
 				<Flex maxW="700px" flexDir="column" gap="10px">
@@ -32,12 +32,18 @@ export default function ProsContras() {
 					<Flex alignItems="center">
 						<Image src={Check} alt="" />
 						<Heading
-							fontSize="24px"
 							textAlign="center"
 							fontWeight="regular"
 							color="black"
 							mt="10px"
 							ml="25px"
+							fontSize={{
+								base: '18px',
+								xl: '24px',
+								lg: '24px',
+								sm: '18px',
+								md: '18px'
+							}}
 						>
 							Voltará a sorrir com confiança.
 						</Heading>
@@ -46,7 +52,13 @@ export default function ProsContras() {
 					<Flex alignItems="center">
 						<Image src={Check} alt="" />
 						<Heading
-							fontSize="24px"
+							fontSize={{
+								base: '18px',
+								xl: '24px',
+								lg: '24px',
+								sm: '18px',
+								md: '18px'
+							}}
 							textAlign="center"
 							fontWeight="regular"
 							color="black"
@@ -60,7 +72,13 @@ export default function ProsContras() {
 					<Flex alignItems="center">
 						<Image src={Check} alt="" />
 						<Heading
-							fontSize="24px"
+							fontSize={{
+								base: '18px',
+								xl: '24px',
+								lg: '24px',
+								sm: '18px',
+								md: '18px'
+							}}
 							textAlign="center"
 							fontWeight="regular"
 							color="black"
@@ -74,7 +92,13 @@ export default function ProsContras() {
 					<Flex alignItems="center">
 						<Image src={Reject} alt="" />
 						<Heading
-							fontSize="24px"
+							fontSize={{
+								base: '18px',
+								xl: '24px',
+								lg: '24px',
+								sm: '18px',
+								md: '18px'
+							}}
 							textAlign="center"
 							fontWeight="regular"
 							color="black"
@@ -88,7 +112,13 @@ export default function ProsContras() {
 					<Flex alignItems="center">
 						<Image src={Reject} alt="" />
 						<Heading
-							fontSize="24px"
+							fontSize={{
+								base: '18px',
+								xl: '24px',
+								lg: '24px',
+								sm: '18px',
+								md: '18px'
+							}}
 							textAlign="center"
 							fontWeight="regular"
 							color="black"
@@ -102,7 +132,13 @@ export default function ProsContras() {
 					<Flex alignItems="center">
 						<Image src={Reject} alt="" />
 						<Heading
-							fontSize="24px"
+							fontSize={{
+								base: '18px',
+								xl: '24px',
+								lg: '24px',
+								sm: '18px',
+								md: '18px'
+							}}
 							textAlign="center"
 							fontWeight="regular"
 							color="black"

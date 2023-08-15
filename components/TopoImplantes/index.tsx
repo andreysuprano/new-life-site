@@ -12,7 +12,18 @@ export default function TopoImplantes() {
 					<Text fontSize="56px" fontWeight="extrabold" color="#1D3A7B">
 						Implantes Dentários
 					</Text>
-					<Text fontSize="16px" fontWeight="regular" color="#6692F4">
+					<Text
+						fontSize="16px"
+						fontWeight="regular"
+						color="#6692F4"
+						padding={{
+							base: '20px',
+							xl: '0px',
+							lg: '0px',
+							sm: '20px',
+							md: '20px'
+						}}
+					>
 						RECUPERE O PRAZER DE SORRIR COM SEGURANÇA E CONFORTO COM A CLÍNICA QUE JÁ REALIZOU MAIS DE
 						20.000 SONHOS
 					</Text>

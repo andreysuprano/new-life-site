@@ -28,11 +28,11 @@ body {
 @media (max-width: 767px) {
 	.iframe-lp {
 		width: 360px;
-		height: 180px;
+		height: 200px;
 	}
 
 	.iframe-testmonial {
-		width: 400px;
+		width: 360px;
 		height: 220px;
 	}
 }
