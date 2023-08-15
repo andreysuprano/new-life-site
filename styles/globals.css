@@ -2,11 +2,37 @@
 
 html,
 body {
-  padding: 0;
-  margin: 0;
-  font-family: 'Poppins';
-  overflow-x:hidden;
+	padding: 0;
+	margin: 0;
+	font-family: 'Poppins';
+	overflow-x: hidden;
 }
-body{
-  overflow-y:hidden;
+body {
+	overflow-y: hidden;
+}
+
+.iframe-lp {
+	width: 560px;
+	height: 310px;
+	border-radius: 20px;
+	box-shadow: 0px 24px 48px 0px rgba(0, 0, 0, 0.32);
+}
+
+.iframe-testmonial {
+	width: 500px;
+	height: 260px;
+	border-radius: 20px;
+	box-shadow: 0px 24px 48px 0px rgba(0, 0, 0, 0.32);
+}
+
+@media (max-width: 767px) {
+	.iframe-lp {
+		width: 360px;
+		height: 180px;
+	}
+
+	.iframe-testmonial {
+		width: 400px;
+		height: 220px;
+	}
 }

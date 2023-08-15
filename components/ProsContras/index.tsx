@@ -16,6 +16,13 @@ export default function ProsContras() {
 				bgColor="#EFF0F1"
 				pt="80px"
 				pb="80px"
+				padding={{
+					base: '50px',
+					xl: '30px',
+					lg: '30px',
+					sm: '50px',
+					md: '50px'
+				}}
 			>
 				<Flex maxW="700px" flexDir="column" gap="10px">
 					<Text fontSize="36px" textAlign="center" fontWeight="extrabold" lineHeight="40px" color="black">
@@ -120,7 +127,13 @@ export default function ProsContras() {
 					bgColor: '#60D339'
 				}}
 				boxShadow="lg"
-				mt="-30px"
+				mt={{
+					base: '50px',
+					xl: '30px',
+					lg: '30px',
+					sm: '50px',
+					md: '50px'
+				}}
 				onClick={() => {
 					sendToLink(
 						'https://api.whatsapp.com/send?phone=5541998935960&text=Ol%C3%A1%2C%20vim%20do%20site%20e%20gostaria%20de%20agendar%20uma%20avalia%C3%A7%C3%A3o%20e%20conhecer%20mais%20sobre%20a%20clinica!'

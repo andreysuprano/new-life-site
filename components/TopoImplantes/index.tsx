@@ -18,14 +18,24 @@ export default function TopoImplantes() {
 					</Text>
 				</Flex>
 			</Flex>
-			<Flex justifyContent="center" alignItems="center" mt="-200px" mb="100px" flexDir="column">
+			<Flex
+				justifyContent="center"
+				alignItems="center"
+				mt={{
+					base: '-100px',
+					xl: '-230px',
+					lg: '-230px',
+					sm: '-100px',
+					md: '-100px'
+				}}
+				mb="100px"
+				flexDir="column"
+			>
 				<iframe
-					width="560"
-					height="310"
 					src="https://www.youtube.com/embed/6QSFCr-JxLg"
 					title="Realize o sonho do Implante Dentário na New Life Odontologia!"
 					allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-					style={{ borderRadius: '20px', boxShadow: '0px 24px 48px 0px rgba(0, 0, 0, 0.32)' }}
+					className="iframe-lp"
 				/>
 				<Flex
 					paddingLeft="20px"
