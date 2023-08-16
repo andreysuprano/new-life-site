@@ -69,6 +69,7 @@ export default function VideoSectionChr() {
 							fontWeight={'normal'}
 							px={6}
 							colorScheme={'red'}
+							id="btn-whats"
 							bg={'#153172'}
 							_hover={{ bg: 'blue.500' }}
 							onClick={() => {

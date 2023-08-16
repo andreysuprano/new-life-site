@@ -34,6 +34,7 @@ export default function ContatoChr() {
 							rounded={'full'}
 							color={'white'}
 							_hover={{ bg: 'blue.500' }}
+							id="btn-whats"
 							onClick={() => {
 								sendToLink(
 									'https://api.whatsapp.com/send?phone=5541998935960&text=Ol%C3%A1%2C%20vim%20do%20site%20e%20gostaria%20de%20agendar%20uma%20avalia%C3%A7%C3%A3o%20e%20conhecer%20mais%20sobre%20a%20clinica!'
