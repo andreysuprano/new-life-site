@@ -43,6 +43,16 @@ export default class MyDocument extends Document {
               })(window,document,'script','dataLayer','GTM-T4WBB4K');`,
             }}
           />
+
+        <meta property="author" content="Suprano Serviços Digitais"></meta>
+        <meta property="og:title" content="Dentista Curitiba"></meta>
+        <meta property="og:title" content="Dentista"></meta>
+        <meta property="og:title" content="Clínica Odontológica"></meta>
+        <meta property="og:title" content="New Life Odontologia"></meta>
+        <meta property="og:description" content="Realizamos todos os procedimentos, para lhe dar conforto e agilidade ao seu tratamento!"></meta>
+        <meta property="og:description" content="Já pensou em fazer todo o seu tratamento odontológico em um único lugar? E ainda ter seu tratamento realizado por especialistas? Fazemos todos os procedimentos odontológicos com o máximo de qualidade e agilidade, realizado pelos melhores profissionais com os melhores materiais e produtos odontológicos!"></meta>
+        <meta property="og:description" content="Já pensou em fazer todo o seu tratamento odontológico em um único lugar? E ainda ter seu tratamento realizado por especialistas? Fazemos todos os procedimentos odontológicos com o máximo de qualidade e agilidade, realizado pelos melhores profissionais com os melhores materiais e produtos odontológicos!"></meta>
+
         </Head>
         <body>
           <Main />
