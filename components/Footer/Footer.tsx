@@ -41,7 +41,7 @@ export const Footer = () => {
 						<Text>
 							<strong>Telefone:</strong>
 							<Link
-								href={'https://encurtador.com.br/bjknP'}
+								href={'/whatsapp'}
 								_hover={{
 									textDecor: 'none',
 									color: 'blue.300'
@@ -60,7 +60,7 @@ export const Footer = () => {
 						<Text>
 							<strong>Telefone:</strong>
 							<Link
-								href={'https://encurtador.com.br/bjknP'}
+								href={'/whatsapp'}
 								_hover={{
 									textDecor: 'none',
 									color: 'blue.300'
@@ -79,7 +79,7 @@ export const Footer = () => {
 						<Text>
 							<strong>Telefone:</strong>
 							<Link
-								href={'https://encurtador.com.br/bjknP'}
+								href={'/whatsapp'}
 								_hover={{
 									textDecor: 'none',
 									color: 'blue.300'

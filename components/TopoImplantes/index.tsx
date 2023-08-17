@@ -48,7 +48,7 @@ export default function TopoImplantes() {
 					allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
 					className="iframe-lp"
 				/>
-				<a href="https://api.whatsapp.com/send?phone=5541998935960&text=Ol%C3%A1%2C%20vim%20do%20site%20e%20gostaria%20de%20agendar%20uma%20avalia%C3%A7%C3%A3o%20e%20conhecer%20mais%20sobre%20a%20clinica!">
+				<a href="/whatsapp">
 					<Flex
 						paddingLeft="20px"
 						paddingRight="20px"

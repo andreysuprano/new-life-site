@@ -20,7 +20,7 @@ export const ContatoSection = () => {
 					<S.InputForm placeholder="Seu Telefone (Com WhatsApp)" />
 					<S.Button>Enviar</S.Button>
 				</S.InputBox> */}
-				<S.ButtonWhatsWrapper href="https://encurtador.com.br/bjknP">
+				<S.ButtonWhatsWrapper href="/whatsapp">
 					<S.ButtonWhats>
 						<S.Icon>
 							<RiWhatsappLine size={80} color="#fff" />

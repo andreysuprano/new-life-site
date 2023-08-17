@@ -26,7 +26,7 @@ export const NavBar = () => {
 				</S.MenuContainer>
 				<S.BtnMenuContainer>
 					<TelefoneButton />
-					<S.NavButton id="btn-whats" onClick={() => sendToLink('https://encurtador.com.br/bjknP')}>
+					<S.NavButton id="btn-whats" onClick={() => sendToLink('/whatsapp')}>
 						Agendamento
 					</S.NavButton>
 				</S.BtnMenuContainer>
