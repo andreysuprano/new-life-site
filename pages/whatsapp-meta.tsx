@@ -10,7 +10,7 @@ function Home() {
 	useEffect(() => {
 		setTimeout(() => {
 			sendToLink(
-				'https://api.whatsapp.com/send?phone=+554132482000&text=Ol%C3%A1%2C%20vi%20um%20anuncio%20e%20gostaria%20de%20agendar%20uma%20avalia%C3%A7%C3%A3o%20e%20conhecer%20mais%20sobre%20a%20clinica!'
+				'https://api.whatsapp.com/send?phone=+5541992624006&text=Ol%C3%A1%2C%20vi%20um%20anuncio%20e%20gostaria%20de%20agendar%20uma%20avalia%C3%A7%C3%A3o%20e%20conhecer%20mais%20sobre%20a%20clinica!'
 			);
 		}, 1000);
 	}, []);
