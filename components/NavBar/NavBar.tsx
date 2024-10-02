@@ -20,8 +20,12 @@ export const NavBar = () => {
 					<Image src={LogoNewLife} alt="LogoNewLife" />
 				</S.BrandContainer>
 				<S.MenuContainer>
-					{NavLinks.map((item) => {
-						return <S.NavLink href={item.href}>{item.label}</S.NavLink>;
+					{NavLinks.map((item, index) => {
+						return (
+							<S.NavLink href={item.href} key={index}>
+								{item.label}
+							</S.NavLink>
+						);
 					})}
 				</S.MenuContainer>
 				<S.BtnMenuContainer>

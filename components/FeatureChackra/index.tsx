@@ -94,8 +94,8 @@ export default function FeatureChackra() {
 						Simplesmente porque damos o melhor resultado possível em todos os tratamentos realizados. Temos
 						equipamentos de ponta como raio x panorâmico digital, scanners e câmeras intra-orais,
 						laboratório protético próprio e parcerias com empresas de renome internacional como Neodent,
-						Invisalign, Clear Correct e Allergan, facilitando a vida do nosso paciente para realizar exames
-						e determinados procedimentos, fazendo tudo num só lugar!
+						Clear Correct e Allergan, facilitando a vida do nosso paciente para realizar exames e
+						determinados procedimentos, fazendo tudo num só lugar!
 					</Text>
 				</Stack>
 			</SimpleGrid>

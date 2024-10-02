@@ -16,9 +16,9 @@ export const MobileMenu = ({ active, onClose }: MobileMenuProps) => {
 			<S.Wrapper>
 				<IoCloseSharp size={44} color="#FFF" style={{ cursor: 'pointer' }} onClick={() => CloseModal()} />
 				<S.LinksBox>
-					{NavLinks.map((link) => {
+					{NavLinks.map((link, index) => {
 						return (
-							<S.Links href={link.href} onClick={() => CloseModal()}>
+							<S.Links href={link.href} onClick={() => CloseModal()} key={index}>
 								{link.label}
 							</S.Links>
 						);

@@ -27,6 +27,7 @@ export const Footer = () => {
 									textDecor: 'none',
 									color: 'blue.300'
 								}}
+								key={index}
 							>
 								{item.label}
 							</Link>

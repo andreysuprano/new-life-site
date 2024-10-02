@@ -7,7 +7,7 @@ import { NavBar } from '../components/NavBar/NavBar';
 import NavBarChr from '../components/NavBarChr';
 import ServicesChr from '../components/ServicesChr';
 import { SpanServicos } from '../components/SpanServicos/SpanServicos';
-import TestimonialSection from '../components/Testmonials';
+import TestimonialSection from '../components/Depoimentos';
 import { TopSection } from '../components/TopSection/TopSection';
 import VideoSectionChr from '../components/VideoSectionChr';
 

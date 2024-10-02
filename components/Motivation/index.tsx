@@ -205,7 +205,7 @@ export default function Motivation() {
 							}}
 						>
 							Laboratório protético próprio e parceria com empresas de renome internacional, como Neodent,
-							Invisalign, ClearCorrect e Allergan. Garantindo sempre um produto de excelente qualidade.
+							ClearCorrect e Allergan. Garantindo sempre um produto de excelente qualidade.
 						</Text>
 					</Flex>
 				</Flex>

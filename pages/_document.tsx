@@ -33,7 +33,6 @@ export default class MyDocument extends Document {
     return(
       <Html lang="pt-BR">
         <Head>
-          <title>New Life Odontologia</title>
           <script
             dangerouslySetInnerHTML={{
               __html: `(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':

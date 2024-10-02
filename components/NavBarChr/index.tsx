@@ -90,8 +90,8 @@ export default function NavBarChr() {
   
     return (
       <Stack direction={'row'} spacing={4}>
-        {NAV_ITEMS.map((navItem) => (
-          <Box key={navItem.label}>
+        {NAV_ITEMS.map((navItem, index) => (
+          <Box key={navItem.label} >
             <Popover trigger={'hover'} placement={'bottom-start'}>
               <PopoverTrigger>
                 <Link
