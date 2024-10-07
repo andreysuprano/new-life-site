@@ -19,9 +19,11 @@ function Whats() {
 			sendToLink(link);
 		}, 1000);
 	}, []);
+
 	setInterval(() => {
 		setCount(count - 1);
 	}, 1000);
+	
 	return (
 		<div style={{ height: '100vh' }}>
 			<NavBar />

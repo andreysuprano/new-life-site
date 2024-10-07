@@ -21,7 +21,7 @@ function Home() {
 				mb={35}
 			>
 				<SubTitle>Selecione a unidade mais próxima</SubTitle>
-				<Link href="/whatsapp/+554192624006">
+				<Link href="https://wa.me/554192624006?text=Olá!%20Gostaria%20de%20agendar%20uma%20avaliação%20na%20clínica%20do%20Portão%20🦷">
 					<Flex
 						width="300px"
 						height="170px"
@@ -52,7 +52,10 @@ function Home() {
 						</Stack>
 					</Flex>
 				</Link>
-				<Link href="/whatsapp/+554184382556" w="100%">
+				<Link
+					href="https://wa.me/554184382556?text=Olá!%20Gostaria%20de%20agendar%20uma%20avaliação%20na%20clínica%20do%20Capão%20Raso%20🦷"
+					w="100%"
+				>
 					<Flex
 						width="300px"
 						height="170px"
@@ -83,7 +86,10 @@ function Home() {
 						</Stack>
 					</Flex>
 				</Link>
-				<Link href="/whatsapp/+554184379634" w="100%">
+				<Link
+					href="https://wa.me/554184379634?text=Olá!%20Gostaria%20de%20agendar%20uma%20avaliação%20na%20clínica%20do%20Bigorrilho/Champagnat%20🦷"
+					w="100%"
+				>
 					<Flex
 						width="300px"
 						height="170px"
