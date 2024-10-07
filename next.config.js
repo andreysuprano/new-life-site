@@ -1,7 +1,5 @@
 // next.config.js
-const nextConfig = {
+export const nextConfig = {
 	reactStrictMode: true,
 	swcMinify: true
 };
-
-module.exports = nextConfig;
