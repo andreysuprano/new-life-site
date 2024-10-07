@@ -21,7 +21,10 @@ function Home() {
 				mb={35}
 			>
 				<SubTitle>Selecione a unidade mais próxima</SubTitle>
-				<Link href="https://wa.me/554192624006?text=Olá!%20Gostaria%20de%20agendar%20uma%20avaliação%20na%20clínica%20do%20Portão%20🦷">
+				<a
+					href="https://wa.me/554192624006?text=Olá!%20Gostaria%20de%20agendar%20uma%20avaliação%20na%20clínica%20do%20Portão%20🦷"
+					style={{ textDecoration: 'none' }}
+				>
 					<Flex
 						width="300px"
 						height="170px"
@@ -51,10 +54,10 @@ function Home() {
 							</Button>
 						</Stack>
 					</Flex>
-				</Link>
-				<Link
+				</a>
+				<a
+					style={{ textDecoration: 'none' }}
 					href="https://wa.me/554184382556?text=Olá!%20Gostaria%20de%20agendar%20uma%20avaliação%20na%20clínica%20do%20Capão%20Raso%20🦷"
-					w="100%"
 				>
 					<Flex
 						width="300px"
@@ -85,10 +88,10 @@ function Home() {
 							</Button>
 						</Stack>
 					</Flex>
-				</Link>
-				<Link
+				</a>
+				<a
+					style={{ textDecoration: 'none' }}
 					href="https://wa.me/554184379634?text=Olá!%20Gostaria%20de%20agendar%20uma%20avaliação%20na%20clínica%20do%20Bigorrilho/Champagnat%20🦷"
-					w="100%"
 				>
 					<Flex
 						width="300px"
@@ -119,7 +122,7 @@ function Home() {
 							</Button>
 						</Stack>
 					</Flex>
-				</Link>
+				</a>
 			</Flex>
 			<Footer />
 		</Flex>
