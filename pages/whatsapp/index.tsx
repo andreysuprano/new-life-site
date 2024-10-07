@@ -7,6 +7,7 @@ import { NavBar } from '../../components/NavBar/NavBar';
 import { useEffect, useState } from 'react';
 import { sendToLink } from '../../util/sendToLink';
 import { useParams } from 'next/navigation';
+import FooterChr from '../../components/FooterChr';
 
 function Whats() {
 	const [ count, setCount ] = useState(3);

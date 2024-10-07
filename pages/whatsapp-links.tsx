@@ -5,11 +5,21 @@ import Image from 'next/image';
 import { NavBar } from '../components/NavBar/NavBar';
 import { theme } from '../assets/theme/theme';
 import { SubTitle, Title } from '../components/AboutSection/styles';
+import FooterChr from '../components/FooterChr';
+import { Footer } from '../components/Footer/Footer';
 
 function Home() {
 	return (
 		<Flex width="100vw" bgColor={theme.backgroundGrey} flexDir="column">
-			<Flex width="100vw" alignItems="center" justifyContent="center" flexDirection="column" padding="30px">
+			<NavBar />
+			<Flex
+				width="100vw"
+				alignItems="center"
+				justifyContent="center"
+				flexDirection="column"
+				padding="30px"
+				mb={35}
+			>
 				<SubTitle>Selecione a unidade mais próxima</SubTitle>
 				<Flex
 					width="300px"
@@ -105,6 +115,7 @@ function Home() {
 					</Stack>
 				</Flex>
 			</Flex>
+			<Footer />
 		</Flex>
 	);
 }
