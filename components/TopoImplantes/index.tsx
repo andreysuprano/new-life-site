@@ -48,7 +48,7 @@ export default function TopoImplantes() {
 					allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
 					className="iframe-lp"
 				/>
-				<a href="/whatsapp">
+				<a href="/whatsapp-links">
 					<Flex
 						paddingLeft="20px"
 						paddingRight="20px"

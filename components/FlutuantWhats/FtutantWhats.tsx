@@ -32,7 +32,7 @@ const Wrapper = styled.div`
 
 export const FlutuantWhats = () => {
 	return (
-		<Container id="btn-whats" onClick={() => sendToLink('/whatsapp')}>
+		<Container id="btn-whats" onClick={() => sendToLink('/whatsapp-links')}>
 			<Wrapper>
 				<RiWhatsappLine size={50} color="#fff" />
 			</Wrapper>

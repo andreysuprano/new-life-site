@@ -68,7 +68,7 @@ export default function NavBarChr() {
                 direction={'row'}
                 spacing={6}>
 					<TelefoneButton />
-					<S.NavButton id="btn-whats" onClick={() => sendToLink('/whatsapp')}>
+					<S.NavButton id="btn-whats" onClick={() => sendToLink('/whatsapp-links')}>
 						Agendamento
 					</S.NavButton>
             </Stack>

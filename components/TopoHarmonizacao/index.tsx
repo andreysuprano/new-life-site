@@ -71,7 +71,7 @@ export default function TopoHarmonizacao() {
 							bg={'#153172'}
 							_hover={{ bg: 'blue.500' }}
 							onClick={() => {
-								sendToLink('/whatsapp');
+								sendToLink('/whatsapp-links');
 							}}
 						>
 							Quero agora!

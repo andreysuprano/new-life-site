@@ -30,7 +30,7 @@ export const NavBar = () => {
 				</S.MenuContainer>
 				<S.BtnMenuContainer>
 					<TelefoneButton />
-					<S.NavButton id="btn-whats" onClick={() => sendToLink('/whatsapp')}>
+					<S.NavButton id="btn-whats" onClick={() => sendToLink('/whatsapp-links')}>
 						Agendamento
 					</S.NavButton>
 				</S.BtnMenuContainer>
