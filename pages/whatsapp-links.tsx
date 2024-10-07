@@ -21,25 +21,25 @@ function Home() {
 				mb={35}
 			>
 				<SubTitle>Selecione a unidade mais próxima</SubTitle>
-				<Flex
-					width="300px"
-					height="170px"
-					border="2px"
-					borderColor="gray.300"
-					borderRadius="10px"
-					boxShadow="lg"
-					mt={5}
-					p={5}
-					flexDir="column"
-				>
-					<Text fontWeight={800} fontSize={18}>
-						Portão
-					</Text>
-					<Text fontWeight={400} fontSize={12} mt={-3}>
-						Av. Presidente Wenceslau Braz, 4015 - Portão, Curitiba - PR, 81010-001
-					</Text>
-					<Stack direction="row" spacing={4}>
-						<Link href="/whatsapp/+554192624006" w="100%">
+				<Link href="/whatsapp/+554192624006">
+					<Flex
+						width="300px"
+						height="170px"
+						border="2px"
+						borderColor="gray.300"
+						borderRadius="10px"
+						boxShadow="lg"
+						mt={5}
+						p={5}
+						flexDir="column"
+					>
+						<Text fontWeight={800} fontSize={18}>
+							Portão
+						</Text>
+						<Text fontWeight={400} fontSize={12} mt={-3}>
+							Av. Presidente Wenceslau Braz, 4015 - Portão, Curitiba - PR, 81010-001
+						</Text>
+						<Stack direction="row" spacing={4}>
 							<Button
 								leftIcon={<Image src={WhatsIcon} width={15} height={15} alt="wpicon" />}
 								colorScheme="teal"
@@ -49,28 +49,28 @@ function Home() {
 							>
 								WhatsApp
 							</Button>
-						</Link>
-					</Stack>
-				</Flex>
-				<Flex
-					width="300px"
-					height="170px"
-					border="2px"
-					borderColor="gray.300"
-					borderRadius="10px"
-					boxShadow="lg"
-					mt={5}
-					p={5}
-					flexDir="column"
-				>
-					<Text fontWeight={800} fontSize={18}>
-						Capão Raso
-					</Text>
-					<Text fontWeight={400} fontSize={12} mt={-3}>
-						Av. Brasília, 6008 - Capão Raso, Curitiba - PR, 81020-010
-					</Text>
-					<Stack direction="row" spacing={4}>
-						<Link href="/whatsapp/+554184382556" w="100%">
+						</Stack>
+					</Flex>
+				</Link>
+				<Link href="/whatsapp/+554184382556" w="100%">
+					<Flex
+						width="300px"
+						height="170px"
+						border="2px"
+						borderColor="gray.300"
+						borderRadius="10px"
+						boxShadow="lg"
+						mt={5}
+						p={5}
+						flexDir="column"
+					>
+						<Text fontWeight={800} fontSize={18}>
+							Capão Raso
+						</Text>
+						<Text fontWeight={400} fontSize={12} mt={-3}>
+							Av. Brasília, 6008 - Capão Raso, Curitiba - PR, 81020-010
+						</Text>
+						<Stack direction="row" spacing={4}>
 							<Button
 								leftIcon={<Image src={WhatsIcon} width={15} height={15} alt="wpicon" />}
 								colorScheme="teal"
@@ -80,28 +80,28 @@ function Home() {
 							>
 								WhatsApp
 							</Button>
-						</Link>
-					</Stack>
-				</Flex>
-				<Flex
-					width="300px"
-					height="170px"
-					border="2px"
-					borderColor="gray.300"
-					borderRadius="10px"
-					boxShadow="lg"
-					mt={5}
-					p={5}
-					flexDir="column"
-				>
-					<Text fontWeight={800} fontSize={18}>
-						Bigorrilho
-					</Text>
-					<Text fontWeight={400} fontSize={12} mt={-3}>
-						R. Francisco Rocha, 1850 - Bigorrilho, Curitiba - PR, 80730-390
-					</Text>
-					<Stack direction="row" spacing={4}>
-						<Link href="/whatsapp/+554184379634" w="100%">
+						</Stack>
+					</Flex>
+				</Link>
+				<Link href="/whatsapp/+554184379634" w="100%">
+					<Flex
+						width="300px"
+						height="170px"
+						border="2px"
+						borderColor="gray.300"
+						borderRadius="10px"
+						boxShadow="lg"
+						mt={5}
+						p={5}
+						flexDir="column"
+					>
+						<Text fontWeight={800} fontSize={18}>
+							Bigorrilho
+						</Text>
+						<Text fontWeight={400} fontSize={12} mt={-3}>
+							R. Francisco Rocha, 1850 - Bigorrilho, Curitiba - PR, 80730-390
+						</Text>
+						<Stack direction="row" spacing={4}>
 							<Button
 								leftIcon={<Image src={WhatsIcon} width={15} height={15} alt="wpicon" />}
 								colorScheme="teal"
@@ -111,9 +111,9 @@ function Home() {
 							>
 								WhatsApp
 							</Button>
-						</Link>
-					</Stack>
-				</Flex>
+						</Stack>
+					</Flex>
+				</Link>
 			</Flex>
 			<Footer />
 		</Flex>
