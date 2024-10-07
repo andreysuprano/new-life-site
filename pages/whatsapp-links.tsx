@@ -1,85 +1,111 @@
 'client';
-import { Flex, Text } from '@chakra-ui/react';
-import WhatsIcon from '../assets/img/whatsappVerde.svg';
+import { Button, Flex, Link, Stack, Text } from '@chakra-ui/react';
+import WhatsIcon from '../assets/svg/wp.svg';
 import Image from 'next/image';
 import { NavBar } from '../components/NavBar/NavBar';
+import { theme } from '../assets/theme/theme';
+import { SubTitle, Title } from '../components/AboutSection/styles';
 
 function Home() {
 	return (
-		<div style={{ height: '100vh', backgroundColor: '#ECF1F6' }}>
-			<NavBar />
-			<Flex w="100vw" alignItems="center" justifyContent="center">
-				<a href="https://api.whatsapp.com/send?phone=+554192624006&text=Ol%C3%A1%2C%20vim%20do%20site%20e%20gostaria%20de%20agendar%20uma%20avalia%C3%A7%C3%A3o%20e%20conhecer%20mais%20sobre%20a%20clinica!">
-					<Flex
-						paddingLeft="20px"
-						paddingRight="20px"
-						height="60px"
-						backgroundColor="#60D669"
-						borderRadius="10px"
-						alignItems="center"
-						justifyContent="center"
-						marginTop="80px"
-						cursor="pointer"
-						_hover={{
-							bgColor: '#60D339'
-						}}
-						boxShadow="lg"
-					>
-						<Image src={WhatsIcon} alt="" width="40" height="40" style={{ marginRight: '10px' }} />
-						<Text fontSize="26px" fontWeight="extrabold" color="#FFF" marginTop="15px">
-							WHATSAPP MATRIZPORTÃO
-						</Text>
-					</Flex>
-					<a
-						href="https://api.whatsapp.com/send?phone=+554184382556&text=Ol%C3%A1%2C%20vim%20do%20site%20e%20gostaria%20de%20agendar%20uma%20avalia%C3%A7%C3%A3o%20e%20conhecer%20mais%20sobre%20a%20clinica!"
-						style={{ textDecoration: 'none' }}
-					>
-						<Flex
-							paddingLeft="20px"
-							paddingRight="20px"
-							height="60px"
-							backgroundColor="#60D669"
-							borderRadius="10px"
-							alignItems="center"
-							justifyContent="center"
-							marginTop="80px"
-							cursor="pointer"
-							_hover={{
-								bgColor: '#60D339'
-							}}
-							boxShadow="lg"
-						>
-							<Image src={WhatsIcon} alt="" width="40" height="40" style={{ marginRight: '10px' }} />
-							<Text fontSize="26px" fontWeight="extrabold" color="#FFF" marginTop="15px">
-								WHATSAPP CAPÃO RASO
-							</Text>
-						</Flex>
-					</a>
-					<a href="https://api.whatsapp.com/send?phone=+554184379634&text=Ol%C3%A1%2C%20vim%20do%20site%20e%20gostaria%20de%20agendar%20uma%20avalia%C3%A7%C3%A3o%20e%20conhecer%20mais%20sobre%20a%20clinica!">
-						<Flex
-							paddingLeft="20px"
-							paddingRight="20px"
-							height="60px"
-							backgroundColor="#60D669"
-							borderRadius="10px"
-							alignItems="center"
-							justifyContent="center"
-							marginTop="80px"
-							cursor="pointer"
-							_hover={{
-								bgColor: '#60D339'
-							}}
-							boxShadow="lg"
-						>
-							<Image src={WhatsIcon} alt="" width="40" height="40" style={{ marginRight: '10px' }} />
-							<Text fontSize="26px" fontWeight="extrabold" color="#FFF" marginTop="15px">
-								WHATSAPP BIGORRILHO
-							</Text>
-						</Flex>
-					</a>
-				</a>
+		<Flex width="100vw" bgColor={theme.backgroundGrey} flexDir="column">
+			<Flex width="100vw" alignItems="center" justifyContent="center" flexDirection="column" padding="30px">
+				<SubTitle>Selecione a unidade mais próxima</SubTitle>
+				<Flex
+					width="300px"
+					height="170px"
+					border="2px"
+					borderColor="gray.300"
+					borderRadius="10px"
+					boxShadow="lg"
+					mt={5}
+					p={5}
+					flexDir="column"
+				>
+					<Text fontWeight={800} fontSize={18}>
+						Portão
+					</Text>
+					<Text fontWeight={400} fontSize={12} mt={-3}>
+						Av. Presidente Wenceslau Braz, 4015 - Portão, Curitiba - PR, 81010-001
+					</Text>
+					<Stack direction="row" spacing={4}>
+						<Link href="/whatsapp/+554192624006" w="100%">
+							<Button
+								leftIcon={<Image src={WhatsIcon} width={15} height={15} alt="wpicon" />}
+								colorScheme="teal"
+								variant="solid"
+								w="100%"
+								bgColor="#26a90c"
+							>
+								WhatsApp
+							</Button>
+						</Link>
+					</Stack>
+				</Flex>
+				<Flex
+					width="300px"
+					height="170px"
+					border="2px"
+					borderColor="gray.300"
+					borderRadius="10px"
+					boxShadow="lg"
+					mt={5}
+					p={5}
+					flexDir="column"
+				>
+					<Text fontWeight={800} fontSize={18}>
+						Capão Raso
+					</Text>
+					<Text fontWeight={400} fontSize={12} mt={-3}>
+						Av. Brasília, 6008 - Capão Raso, Curitiba - PR, 81020-010
+					</Text>
+					<Stack direction="row" spacing={4}>
+						<Link href="/whatsapp/+554184382556" w="100%">
+							<Button
+								leftIcon={<Image src={WhatsIcon} width={15} height={15} alt="wpicon" />}
+								colorScheme="teal"
+								variant="solid"
+								w="100%"
+								bgColor="#26a90c"
+							>
+								WhatsApp
+							</Button>
+						</Link>
+					</Stack>
+				</Flex>
+				<Flex
+					width="300px"
+					height="170px"
+					border="2px"
+					borderColor="gray.300"
+					borderRadius="10px"
+					boxShadow="lg"
+					mt={5}
+					p={5}
+					flexDir="column"
+				>
+					<Text fontWeight={800} fontSize={18}>
+						Bigorrilho
+					</Text>
+					<Text fontWeight={400} fontSize={12} mt={-3}>
+						R. Francisco Rocha, 1850 - Bigorrilho, Curitiba - PR, 80730-390
+					</Text>
+					<Stack direction="row" spacing={4}>
+						<Link href="/whatsapp/+554184379634" w="100%">
+							<Button
+								leftIcon={<Image src={WhatsIcon} width={15} height={15} alt="wpicon" />}
+								colorScheme="teal"
+								variant="solid"
+								w="100%"
+								bgColor="#26a90c"
+							>
+								WhatsApp
+							</Button>
+						</Link>
+					</Stack>
+				</Flex>
 			</Flex>
-		</div>
+		</Flex>
 	);
 }
 export default Home;

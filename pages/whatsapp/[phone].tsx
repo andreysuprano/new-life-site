@@ -1,17 +1,22 @@
-import { Flex, Text, useEditable } from '@chakra-ui/react';
-import WhatsIcon from '../assets/img/whatsappVerde.svg';
-import Image from 'next/image';
-import { NavBar } from '../components/NavBar/NavBar';
-import { useEffect, useState } from 'react';
-import { sendToLink } from '../util/sendToLink';
+'use client';
 
-function Home() {
+import { Flex, Text } from '@chakra-ui/react';
+import WhatsIcon from '../../assets/img/whatsappVerde.svg';
+import Image from 'next/image';
+import { NavBar } from '../../components/NavBar/NavBar';
+import { useEffect, useState } from 'react';
+import { sendToLink } from '../../util/sendToLink';
+import { useParams } from 'next/navigation';
+
+function Whats() {
 	const [ count, setCount ] = useState(3);
+	const params = useParams<{ phone: string }>();
+	const phone = params?.phone || '+554192624006';
+
 	useEffect(() => {
 		setTimeout(() => {
-			sendToLink(
-				'https://api.whatsapp.com/send?phone=+5541992624006&text=Ol%C3%A1%2C%20vim%20do%20site%20e%20gostaria%20de%20agendar%20uma%20avalia%C3%A7%C3%A3o%20e%20conhecer%20mais%20sobre%20a%20clinica!'
-			);
+			const link = `https://api.whatsapp.com/send?phone=${phone}&text=Ol%C3%A1%2C%20vim%20do%20site%20e%20gostaria%20de%20agendar%20uma%20avalia%C3%A7%C3%A3o%20e%20conhecer%20mais%20sobre%20a%20clinica!`;
+			sendToLink(link);
 		}, 1000);
 	}, []);
 	setInterval(() => {
@@ -32,4 +37,4 @@ function Home() {
 		</div>
 	);
 }
-export default Home;
+export default Whats;
