@@ -11,7 +11,6 @@ import { Footer } from '../components/Footer/Footer';
 function Home() {
 	return (
 		<Flex width="100vw" bgColor={theme.backgroundGrey} flexDir="column">
-			<NavBar />
 			<Flex
 				width="100vw"
 				alignItems="center"
@@ -27,13 +26,13 @@ function Home() {
 				>
 					<Flex
 						width="300px"
-						height="170px"
+						height="150px"
 						border="2px"
 						borderColor="gray.300"
 						borderRadius="10px"
 						boxShadow="lg"
 						mt={5}
-						p={5}
+						p={3}
 						flexDir="column"
 					>
 						<Text fontWeight={800} fontSize={18}>
@@ -61,13 +60,13 @@ function Home() {
 				>
 					<Flex
 						width="300px"
-						height="170px"
+						height="150px"
 						border="2px"
 						borderColor="gray.300"
 						borderRadius="10px"
 						boxShadow="lg"
 						mt={5}
-						p={5}
+						p={3}
 						flexDir="column"
 					>
 						<Text fontWeight={800} fontSize={18}>
@@ -95,13 +94,13 @@ function Home() {
 				>
 					<Flex
 						width="300px"
-						height="170px"
+						height="150px"
 						border="2px"
 						borderColor="gray.300"
 						borderRadius="10px"
 						boxShadow="lg"
 						mt={5}
-						p={5}
+						p={3}
 						flexDir="column"
 					>
 						<Text fontWeight={800} fontSize={18}>
@@ -124,7 +123,6 @@ function Home() {
 					</Flex>
 				</a>
 			</Flex>
-			<Footer />
 		</Flex>
 	);
 }
