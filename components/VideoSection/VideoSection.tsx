@@ -25,7 +25,7 @@ export const VideoSection = () => {
 						máximo de qualidade e agilidade, realizado pelos melhores profissionais com os melhores
 						materiais e produtos odontológicos!
 					</S.Paragraph>
-					<S.Button id="btn-whats" onClick={() => sendToLink('/whatsapp-links')}>
+					<S.Button id="btn-whats" onClick={() => sendToLink('/whatsapp')}>
 						Quero conhecer!
 					</S.Button>
 				</S.TextContainer>

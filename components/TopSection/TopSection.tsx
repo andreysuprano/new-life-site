@@ -13,7 +13,7 @@ export const TopSection = () => {
 					<S.Paragraph>
 						Realizamos todos os procedimentos, para lhe dar conforto e agilidade ao seu tratamento!
 					</S.Paragraph>
-					<S.Button id="btn-whats" onClick={() => sendToLink('/whatsapp-links')}>
+					<S.Button id="btn-whats" onClick={() => sendToLink('/whatsapp')}>
 						Quero conhecer mais!
 					</S.Button>
 				</S.TextContainer>

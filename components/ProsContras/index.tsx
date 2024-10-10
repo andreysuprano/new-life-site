@@ -150,7 +150,7 @@ export default function ProsContras() {
 					</Flex>
 				</Flex>
 			</Flex>
-			<a href="/whatsapp-links">
+			<a href="/whatsapp">
 				<Flex
 					paddingLeft="20px"
 					paddingRight="20px"

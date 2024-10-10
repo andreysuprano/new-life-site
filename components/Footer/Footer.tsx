@@ -42,7 +42,7 @@ export const Footer = () => {
 						<Text>
 							<strong>Telefone:</strong>
 							<Link
-								href={'/whatsapp-links'}
+								href={'/whatsapp'}
 								_hover={{
 									textDecor: 'none',
 									color: 'blue.300'
@@ -61,7 +61,7 @@ export const Footer = () => {
 						<Text>
 							<strong>Telefone:</strong>
 							<Link
-								href={'/whatsapp-links'}
+								href={'/whatsapp'}
 								_hover={{
 									textDecor: 'none',
 									color: 'blue.300'
@@ -80,7 +80,7 @@ export const Footer = () => {
 						<Text>
 							<strong>Telefone:</strong>
 							<Link
-								href={'/whatsapp-links'}
+								href={'/whatsapp'}
 								_hover={{
 									textDecor: 'none',
 									color: 'blue.300'

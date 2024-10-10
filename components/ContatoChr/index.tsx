@@ -36,7 +36,7 @@ export default function ContatoChr() {
 							_hover={{ bg: 'blue.500' }}
 							id="btn-whats"
 							onClick={() => {
-								sendToLink('/whatsapp-links');
+								sendToLink('/whatsapp');
 							}}
 						>
 							Agendar agora!
