@@ -21,7 +21,7 @@ function Home() {
 			>
 				<SubTitle>Selecione a unidade mais próxima</SubTitle>
 				<a
-					href="https://wa.me/554192624006?text=Olá!%20Gostaria%20de%20agendar%20uma%20avaliação%20na%20clínica%20do%20Portão%20🦷"
+					href="https://api.whatsapp.com/send?phone=554192624006&text=Olá!%20Gostaria%20de%20agendar%20uma%20avaliação%20na%20clínica%20do%20Portão%20🦷"
 					style={{ textDecoration: 'none' }}
 				>
 					<Flex
@@ -56,7 +56,7 @@ function Home() {
 				</a>
 				<a
 					style={{ textDecoration: 'none' }}
-					href="https://wa.me/554184382556?text=Olá!%20Gostaria%20de%20agendar%20uma%20avaliação%20na%20clínica%20do%20Capão%20Raso%20🦷"
+					href="https://api.whatsapp.com/send?phone=554184382556&text=Olá!%20Gostaria%20de%20agendar%20uma%20avaliação%20na%20clínica%20do%20Capão%20Raso%20🦷"
 				>
 					<Flex
 						width="300px"
@@ -90,7 +90,7 @@ function Home() {
 				</a>
 				<a
 					style={{ textDecoration: 'none' }}
-					href="https://wa.me/554184379634?text=Olá!%20Gostaria%20de%20agendar%20uma%20avaliação%20na%20clínica%20do%20Bigorrilho/Champagnat%20🦷"
+					href="https://api.whatsapp.com/send?phone=554184379634&text=Olá!%20Gostaria%20de%20agendar%20uma%20avaliação%20na%20clínica%20do%20Bigorrilho/Champagnat%20🦷"
 				>
 					<Flex
 						width="300px"
